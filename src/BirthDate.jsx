@@ -1,5 +1,5 @@
 // import {useI18nContext} from './contect/18nContext'
-
+import './css/BirthDate.css'
 import { use } from 'react'
 import { useI18nContext } from './contect/18nContext'
 import translateText, {languageCode} from './helpFunction.js'

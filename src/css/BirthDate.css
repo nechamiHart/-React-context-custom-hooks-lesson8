@@ -1,0 +1,19 @@
+.birth-date {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.birth-date h1 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+}
+
+.birth-date h1:last-child {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #475569;
+}

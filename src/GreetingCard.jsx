@@ -1,3 +1,4 @@
+import './css/GreetingCard.css'
 import {useI18nContext} from './contect/18nContext'
 import translateText from './helpFunction.js'
 

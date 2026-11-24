@@ -1,0 +1,19 @@
+.language-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.language-picker label {
+  font-weight: 600;
+}
+
+.language-picker select {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
