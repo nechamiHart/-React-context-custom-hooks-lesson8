@@ -1,9 +1,10 @@
 
 import { useI18nContext } from "./contect/18nContext"
+import { languageCode } from "./helpFunction"
 
 export default function ChooseLanguage(){
 
-    const {toggleLanguage}=useI18nContext()
+    const {language,toggleLanguage}=useI18nContext()
 
     const handleToggle=(e)=>{
         toggleLanguage(e.target.value)
@@ -11,11 +12,11 @@ export default function ChooseLanguage(){
 
     return (
         <>
-        <label htmlFor="langauge">choose langauge: </label>
-        <select id="langauge" name="langauge" onChange={handleToggle}>
-            <option value="hebrow">עברית</option>
-            <option value="english">English</option>
-            <option value="French">Français</option>
+        <label htmlFor="language">choose language: </label>
+        <select id="language" name="langauge" value={language} onChange={handleToggle}>
+            <option value="he">עברית</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
         </select>
         </>
     )

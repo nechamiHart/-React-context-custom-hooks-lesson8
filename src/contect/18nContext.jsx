@@ -1,12 +1,12 @@
 import { createContext, useState ,use} from "react"
 
 const I18nContext=createContext({
-    language:'',
+    language:'he',
     toggleLanguage(){}
 })
 
 export default function I18nContextProvider({children}){
-    const [language,setLanguage]=useState('עברית')
+    const [language,setLanguage]=useState('he')
 
     const toggleLanguage=(language)=>{
         setLanguage(language)
